@@ -37,6 +37,6 @@ app.post("/user-register", async (req, res) => {
     return res.json( {userAdded: addNewUser, message: "User was added !!!"} );
 });
 
-app.listen(5000, () => {
+app.listen(8080, () => {
     console.log("APP IS RUNNING.....")
 });
